@@ -1,0 +1,199 @@
+.mainContainerUpLight {
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.mainContainerUpDark {
+    width: auto;
+    height: auto;
+    background-color: #313037;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.mainBlockTitleUpLight {
+    width: 1120px;
+    height: 900px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+.mainBlockTitleUpDark {
+    width: 1120px;
+    height: 900px;
+    background-color: #313037;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+
+.textBlockUpLight {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textBlockUpDark {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.backHomeUpLight {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313037;
+    margin-bottom: 20px;
+}
+
+.backHomeUpDark {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+
+.containerUpLight {
+    width: 1120px;
+    height: 684px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerUpDark {
+    width: 1120px;
+    height: 684px;
+    background-color: #313037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsContainerUpLight {
+    width: 624px;
+    height: 684px;
+    border: 1px solid #DADADA;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputsContainerUpDark {
+    width: 624px;
+    height: 684px;
+    border: 1px solid #DADADA;
+    background-color: #313037;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpButtonLight {
+    width: 544px;
+    height: 56px;
+    border-radius: 2px;
+    background-color: #2231AA;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.signUpButtonDark {
+    width: 544px;
+    height: 56px;
+    border-radius: 2px;
+    background-color: #2231AA;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+
+.titleAvailabilityAccLight {
+    width: 265px;
+    height: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8E97;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.titleAvailabilityAccDark {
+    width: 265px;
+    height: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #DADADA;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+
+
+.signLink {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2231AA;
+    text-decoration: none;
+
+}
+

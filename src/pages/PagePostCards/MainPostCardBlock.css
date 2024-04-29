@@ -1,0 +1,195 @@
+.mainContainerCardsLight {
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainerCardsDark {
+    width: auto;
+    height: auto;
+    background-color: #313037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.mainPostCardBlock {
+    width: 1120px;
+    height: 1560px;
+    margin-top: 40px;
+}
+
+.textBlockLight {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textBlockDark {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white
+}
+
+.containerL {
+    width: 1120px;
+    height: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.smallContainer {
+    width: 352px;
+    height: 1349px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.leftContainer {
+    width: 736px;
+    height: 1245px;
+}
+
+
+.largeContainer {
+    width: 736px;
+    height: 452px;
+}
+
+.mediumContainer {
+    width: 736px;
+    height: 913px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.topBlock {
+    width: 736px;
+    height: 456px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.leftMContainer {
+    width: 370px;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 1150px) {
+
+    .mainContainerCardsLight {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mainContainerCardsDark {
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .smallContainer {
+        display: none;
+    }
+
+    .containerL {
+        width: 720px;
+        display: flex;
+    }
+
+    .mainPostCardBlock {
+        width: 740px;
+        margin-top: 40px;
+    }
+
+}
+
+
+@media screen and (max-width: 761px) {
+
+    .mainContainerCardsLight {
+        width: auto;
+        height: auto;
+    }
+
+    .mainContainerCardsDark {
+        width: auto;
+        height: auto;
+    }
+    .smallContainer {
+        display: none;
+    }
+
+    .containerL {
+        width: 340px;
+    }
+
+    .mainPostCardBlock {
+        width: 340px;
+        height: 2050px;
+        margin-top: 40px;
+    }
+
+    .largeContainer {
+      display: none;
+    }
+
+
+    .mediumContainer {
+        width: 340px;
+        height: 913px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftMContainer {
+        width: 340px;
+        height: 912px;
+    }
+
+    .mainMediumCardBlockLight {
+        margin-bottom: 20px;
+    }
+
+    
+    .mainMediumCardBlockDark{
+        margin-bottom: 20px;
+    }
+}

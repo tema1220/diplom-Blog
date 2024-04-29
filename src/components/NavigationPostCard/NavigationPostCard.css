@@ -1,0 +1,140 @@
+.mainBlockNavigationLight {
+    width: 1120px;
+    height: 100px;
+    border-radius: 2px;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.mainBlockNavigationDark {
+    width: 1120px;
+    height: 100px;
+    border-radius: 2px;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #313037;
+}
+
+.arrowLeftLight {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrowLeftDark {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 100px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.NumberSequenceLight {
+    width: 200px;
+    height: 24px;
+    color: black;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NumberSequenceDark {
+    width: 200px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowRightLight {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 100px;
+    height: 24px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrowRightDark {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    width: 100px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconArrRight {
+    width: 14.01px;
+    height: 18px;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+
+.iconArrLeft {
+    width: 14.01px;
+    height: 18px;
+    margin-top: 4px;
+    margin-left: -15px;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    .mainBlockNavigationLight {
+        width: 720px;
+    }
+    .mainBlockNavigationDark {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+    .mainBlockNavigationLight {
+        width: 340px;
+    }
+    .mainBlockNavigationDark {
+        width: 340px;
+    }
+}

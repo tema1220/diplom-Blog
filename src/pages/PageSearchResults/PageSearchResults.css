@@ -1,0 +1,59 @@
+.mainContainerSearchLight{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mainContainerSearchDark{
+    width: auto;
+    height: auto;
+    background-color: #313037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.mainSearchBlock{
+    width: 1120px;
+    height: 1560px;
+    margin-top: 40px;
+}
+
+
+.searchTextBlockLight{
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.searchTextBlockDark{
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white
+}
+
+
+.smallSearchContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1120px;
+    height: auto;
+}

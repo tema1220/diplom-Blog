@@ -1,0 +1,204 @@
+.favoriteContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.noPosts {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hereLink {
+    text-decoration: none;
+    color:rgb(14, 14, 132);
+    font-family: Inter;
+    font-size: 25px;
+}
+.here {
+    margin-top: 40px;
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-family: Inter;
+    font-size: 25px;
+}
+
+.mainFavCardBlockLight {
+    width: 352px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #DADADA;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.mainFavCardBlockDark {
+    width: 352px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #313037;
+    border-bottom: 1px solid #DADADA;
+}
+
+.blockWithImageFav {
+    width: 352px;
+    height: 246px;
+    margin-bottom: 18px;
+}
+
+.imageSizeFav {
+    width: 352px;
+    height: 246px;
+}
+
+
+.dateFav {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8E97;
+    margin-bottom: 7px;
+}
+
+.titleFavLight {
+    width: 352px;
+    height: 56px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+    margin-bottom: 22px;
+    text-decoration: none;
+}
+
+
+.blockWithTextFav {
+    width: 352px;
+    height: 125px;
+}
+
+.titleFavDark {
+    width: 352px;
+    height: 56px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    margin-bottom: 22px;
+    text-decoration: none;
+}
+
+.titleFavLight:hover {
+    color: #2231AA;
+}
+
+.titleFavDark:hover {
+    color: #2231AA;
+}
+
+.mainIconsBlockFav {
+    width: 352px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.likeBlockFav {
+    width: 70px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.saveBlockFav {
+    width: 60px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeIconFavLight {
+    width: 21.68px;
+    height: 22px;
+    color: black;
+}
+
+.likeIconFavDark {
+    width: 21.68px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.bookMarkIconFavLight {
+    width: 21.68px;
+    height: 22px;
+    color: black;
+}
+
+.bookMarkIconFavDark {
+    width: 21.68px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+
+.ellipsisIconFavLight {
+    width: 20px;
+    height: 22px;
+    color: black;
+}
+
+.ellipsisIconFavDark {
+    width: 20px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+
+.counterFavLight {
+    width: 15px;
+    height: 25px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+
+.counterFavDark {
+    width: 15px;
+    height: 25px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    color: white;
+}

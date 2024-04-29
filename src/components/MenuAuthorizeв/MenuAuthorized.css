@@ -1,0 +1,200 @@
+.mainMenuBlockLight {
+    width: 236px;
+    height: 960px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.mainMenuBlockDark {
+    width: 236px;
+    height: 960px;
+    background-color: #27262c;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+.containerLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 236px;
+    height: 260px;
+    background-color: white;
+    color: #2231AA;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 83px;
+    background-color: white;
+    color: #2231AA;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.homeDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 236px;
+    height: 83px;
+    background-color: #313037;
+    color: #2231AA;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid #959595;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.bottomMainBlockLight {
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+    height: 163px;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+}
+
+.bottomMainBlockDark {
+    display: flex;
+    flex-direction: column;
+    width: 236px;
+    height: 163px;
+    border-top: 1px solid #959595;
+}
+
+.blockForDW {
+    width: 236px;
+    height: 81px;
+    display: flex;
+    flex-direction: row;
+}
+
+.signInLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E8E8E8;
+    width: 236px;
+    height: 83px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    border-bottom: 1px solid #E8E8E8;
+    border-top: 1px solid #E8E8E8;
+    text-decoration: none;
+}
+
+.signInDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #616161;
+    color: white;
+    width: 236px;
+    height: 83px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    border-top: 1px solid #959595;
+    text-decoration: none;
+}
+
+
+.lightButtonLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 118px;
+    height: 83px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid #E8E8E8;
+}
+
+.lightButtonDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313037;
+    width: 118px;
+    height: 83px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid #959595;
+}
+
+.darkButtonLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 118px;
+    height: 83px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-left: 1px solid #E8E8E8;
+}
+
+.darkButtonDark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313037;
+    width: 118px;
+    height: 83px;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.iconMoonLight {
+    width: 19.96px;
+    height: 19.96px;
+    color: rgb(171, 171, 171);
+}
+
+.iconMoonDark {
+    width: 19.96px;
+    height: 19.96px;
+    color: white;
+}
+
+.iconSunLight {
+    width: 19.96px;
+    height: 19.96px;
+    color: black;
+}
+
+.iconSunDark {
+    width: 19.96px;
+    height: 19.96px;
+    color: rgb(148, 148, 148);
+}

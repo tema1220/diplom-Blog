@@ -1,0 +1,138 @@
+
+
+.mainContainerLight {
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.mainContainerDark {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #313037;
+    margin-top: 40px;
+}
+
+.mainBlockTitle {
+    width: 1120px;
+    height: 900px;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+
+.textBlockLight {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.textBlockDark {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.backHomeLight {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313037;
+    margin-bottom: 20px;
+}
+
+.backHomeDark {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1120px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.templateBodyLight {
+    width: 620px;
+    height: 109px;
+    border: 1px solid #DADADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+}
+
+.templateBodyDark {
+    width: 620px;
+    height: 109px;
+    border: 1px solid #DADADA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF
+}
+
+
+
+@media screen and (max-width: 1150px) {
+
+    .textBlockLight {
+        width: 720px;
+    }
+    
+    .textBlockDark {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 761px) {
+
+    .textBlockLight {
+        width: 340px;
+    }
+    
+    .textBlockDark {
+        width: 340px;
+    }
+}

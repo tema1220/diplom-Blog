@@ -1,0 +1,166 @@
+.allLight {
+    width: 100px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #F3F3F3;
+    color: black;
+}
+
+.allLight:hover {
+    color: #2231AA;
+    border-bottom: 1px solid black;
+}
+
+.allDark {
+    width: 100px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #313037;
+    color: white;
+}
+
+.allDark:hover {
+    color: #2231AA;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.favoriteLight {
+    width: 176px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #F3F3F3;
+    color: black;
+}
+.favoriteLight:hover {
+    color: #2231AA;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.favoriteDark {
+    width: 176px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    background-color: #313037;
+    color: white;
+}
+.favoriteDark:hover {
+    color: #2231AA;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.popularLight {
+    width: 140px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    color: black;
+    background-color: #F3F3F3;
+}
+.popularLight:hover {
+    color: #2231AA;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+.popularDark {
+    width: 140px;
+    height: 48px;
+    padding: 0px, 40px, 24px, 40px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+    color: white;
+    background-color: #313037;
+}
+.popularDark:hover {
+    color: #2231AA;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+
+.greyLine {
+    width: 1120px;
+    height: 1px;
+    background-color: #DADADA;
+    margin-bottom: 40px;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .greyLine {
+        width: 735px;
+    }
+}
+
+
+@media screen and (max-width: 761px) {
+    .greyLine {
+        width: 340px;
+    }
+
+    .allLight {
+        width: 70px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .allDark {
+        width: 70px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .favoriteLight {
+        width: 100px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .favoriteDark {
+        width: 100px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .popularLight {
+        width: 100px;
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .popularDark {
+        width: 100px;
+        height: 48px;
+        font-size: 14px;
+    }
+}

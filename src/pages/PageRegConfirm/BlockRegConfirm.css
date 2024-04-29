@@ -1,0 +1,190 @@
+
+.mainContainerConfirmLight {
+    width: auto;
+    height: auto;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.mainContainerConfirmDark {
+    width: auto;
+    height: auto;
+    background-color: #313037;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+
+.mainBlockTitleConfirmLight {
+    width: 1120px;
+    height: 850px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+.mainBlockTitleConfirmDark {
+    width: 1120px;
+    height: 850px;
+    background-color: #313037;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 30px;
+}
+
+
+.textBlockConfirmLight {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.textBlockConfirmDark {
+    width: 1120px;
+    height: 120px;
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+.backHomeConfirmLight {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313037;
+    margin-bottom: 20px;
+}
+
+.backHomeConfirmDark {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+
+
+.containerConfirmLight {
+    width: 1120px;
+    height: 360px;
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerConfirmDark {
+    width: 1120px;
+    height: 360px;
+    background-color: #313037;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationContainerConfirmLight {
+    width: 624px;
+    height: 256px;
+    border: 1px solid #DADADA;
+    background-color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.informationContainerConfirmDark {
+    width: 624px;
+    height: 256px;
+    border: 1px solid #DADADA;
+    background-color: #313037;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.regDescriptionConfirmLight {
+    width: 318px;
+    height: 72px;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313037;
+    margin-right: 219px;
+}
+
+
+.regDescriptionConfirmDark{
+    width: 318px;
+    height: 72px;
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-right: 219px;
+}
+
+.signUpButton {
+    width: 544px;
+    height: 56px;
+    border-radius: 2px;
+    background-color: #2231AA;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+
+.titleAvailabilityAcc {
+    width: 265px;
+    height: 10px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8E97;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.signLink {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2231AA;
+    text-decoration: none;
+
+}

@@ -1,0 +1,163 @@
+.mainSearchCardBlockLight {
+    width: 1120px;
+    height: 195px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 20px;
+}
+
+.mainSearchCardBlockDark {
+    width: 1120px;
+    height: 195px;
+    background-color: #313037;
+    border-bottom: 1px solid #DADADA;
+    margin-bottom: 20px;
+}
+
+
+.mainTopBlockSR {
+    width: 1120px;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.blockWithImageSR {
+    width: 96px;
+    height: 96px;
+    margin-left: 34px;
+    margin-right: 20px;
+}
+
+.imageSizeSR {
+    width: 96px;
+    height: 96px;
+}
+
+
+.textBlockSR {
+    width: 700px;
+    height: 115px;
+    left: 128px;
+}
+
+
+.mainIconsBlockSR {
+    width: 1120px;
+    height: 65.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeBlockSR {
+    width: 100px;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 22px;
+}
+
+.likeIconSRLight {
+    width: 24px;
+    height: 25px;
+    color: #4C4B5E;
+    margin-left: 13px;
+}
+
+.likeIconSRDark {
+    width: 24px;
+    height: 25px;
+    color: #ffffff;
+    margin-left: 13px;
+}
+
+
+
+.saveBlockSR {
+    width: 84px;
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bookMarkIconSRLight {
+    width: 20px;
+    height: 20px;
+    color: #4C4B5E;
+}
+
+.bookMarkIconSRDark {
+    width: 20px;
+    height: 20px;
+    color: #ffffff;
+}
+
+.ellipsisIconSRLight {
+    width: 24px;
+    height: 24px;
+    padding: 0px, 2px, 0px, 2px;
+    color: #4C4B5E;
+}
+.ellipsisIconSRDark {
+    width: 24px;
+    height: 24px;
+    padding: 0px, 2px, 0px, 2px;
+    color: #ffffff;
+}
+
+.dateSR {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: #8D8E97;
+    margin-bottom: 3px;
+}
+
+
+.titleSRLight {
+    width: 610px;
+    height: 84px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+}
+
+.titleSRDark {
+    width: 610px;
+    height: 84px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+}
+
+
+.counterSRLight {
+    font-size: 18px;
+    line-height: 24px;
+    height: 24px;
+    margin-right: 4px;
+    color: #4C4B5E;
+}
+
+.counterSRDark {
+    font-size: 18px;
+    line-height: 24px;
+    height: 24px;
+    margin-right: 4px;
+    color: white;
+}

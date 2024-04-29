@@ -1,0 +1,170 @@
+.mainSmallCardBlockLight {
+    width: 352px;
+    height: 206px;
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #DADADA;
+    display: flex;
+    flex-direction: column;
+}
+.mainSmallCardBlockDark {
+    width: 352px;
+    height: 206px;
+    background-color: #313037;
+    border-bottom: 1px solid #DADADA;
+}
+
+.mainIconsBlockS {
+    width: 352px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dateS {
+    width: 104px;
+    height: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8D8E97;
+    margin-bottom: 3px;
+}
+
+.titleSLight {
+    width: 222px;
+    height: 84px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #313037;
+    text-decoration: none;
+}
+.titleSDark {
+    width: 222px;
+    height: 84px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.titleSLight:hover {
+    color: #2231AA;
+}
+.titleSDark:hover {
+    color: #2231AA;
+}
+
+.likeBlockS {
+    display: flex;
+    justify-content: space-between;
+    width: 72px;
+    height: 24px
+}
+
+.saveBlockS {
+    display: flex;
+    justify-content: space-between;
+    width: 72px;
+     height: 24px
+}
+
+
+.likeIconSLight {
+    width: 21.68px;
+    height: 22px;
+    color: black;
+}
+.likeIconSDark {
+    width: 21.68px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.bookMarkIconSLight {
+    width: 21.68px;
+    height: 22px;
+    color: black;
+}
+
+.bookMarkIconSDark {
+    width: 21.68px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+.ellipsisIconSLight {
+    width: 21.68px;
+    height: 22px;
+    color: black;
+}
+.ellipsisIconSDark {
+    width: 21.68px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+}
+
+
+.mainTopBlockS {
+    width: 350px;
+    height: 116px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+
+.blockWitnTextS {
+    width: 222px;
+    height: 116px;
+}
+
+
+.blockWithImageS {
+    width: 96px;
+    height: 96px;
+    margin-left: 34px;
+}
+
+
+
+.imageSizeS {
+    width: 96px;
+    height: 96px;
+
+}
+
+
+.counterSLight {
+    width: 13px;
+    height: 27px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    color: black;
+}
+.counterSDark {
+    width: 13px;
+    height: 27px;
+    font-family: Inter;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 12px;
+    color: rgb(255, 255, 255);
+}
