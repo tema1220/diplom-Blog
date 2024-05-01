@@ -1,6 +1,7 @@
+
 .mainMenuBlockLight {
     width: 236px;
-    height: 960px;
+    height: auto;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -10,10 +11,11 @@
 
 .mainMenuBlockDark {
     width: 236px;
-    height: 960px;
-    background-color: #27262c;
+    height: auto;
+    background-color: white;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     position: absolute;
 }
 
@@ -24,7 +26,7 @@
     width: 236px;
     height: 260px;
     background-color: white;
-    color: #2231AA;
+    color: #912EF2;
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -41,7 +43,7 @@
     width: 236px;
     height: 83px;
     background-color: white;
-    color: #2231AA;
+    color: #912EF2;
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -58,7 +60,7 @@
     width: 236px;
     height: 83px;
     background-color: #313037;
-    color: #2231AA;
+    color: #912EF2;
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -69,19 +71,10 @@
 
 .bottomMainBlockLight {
     display: flex;
-    flex-direction: column;
-    width: 236px;
-    height: 163px;
-    border-bottom: 1px solid #6b2020;
-    border-top: 1px solid #E8E8E8;
 }
 
 .bottomMainBlockDark {
     display: flex;
-    flex-direction: column;
-    width: 236px;
-    height: 163px;
-    border-top: 1px solid #959595;
 }
 
 .blockForDW {

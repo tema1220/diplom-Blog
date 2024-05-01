@@ -1,4 +1,4 @@
-/* eslint-disable no-empty-pattern */
+
 import { createSlice, current, createAsyncThunk } from '@reduxjs/toolkit'
 
 interface IObj {
@@ -12,7 +12,7 @@ export const fetchAuthUser = createAsyncThunk(
     'slice/fetchAuthUser',
     async function (obj:IObj, { rejectWithValue }) {
         try {
-            const response = await fetch(`https://studapi.teachmeskills.by/auth/users/`,
+            const response = await fetch("http://studapi.teachmeskills.by/auth/users/",
                 {
                     method: 'POST',
                     body: JSON.stringify(obj),

@@ -12,7 +12,6 @@ export default function Menu({ isMenuOpen }: any) {
     const [color, setColor] = useContext(myContext);
     return (
         <>
-  
             {isMenuOpen && (
                 <div className={`mainMenuBlock${color}`} >
                     <div className='containerLink'>

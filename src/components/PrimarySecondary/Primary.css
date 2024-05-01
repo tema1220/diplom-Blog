@@ -5,7 +5,7 @@
     padding: 16px, 32px, 16px, 32px;
     border-radius: 2px;
     border: none;
-    background-color: #2231AA;
+    background-color: #912EF2;
     font-family: Inter;
     font-size: 18px;
     font-weight: 600;
@@ -14,7 +14,7 @@
 }
 
 .primary:hover {
-    background-color: #5360CD;
+    background-color: #912EF2;
 }
 
 

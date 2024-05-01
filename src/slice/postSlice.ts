@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { createSlice, current, createAsyncThunk } from '@reduxjs/toolkit'
 
 
@@ -6,7 +5,7 @@ export const fetchData = createAsyncThunk(
     'slice/fetchData',
     async function (_, { rejectWithValue }) {
         try {
-            const response = await fetch('https://studapi.teachmeskills.by/blog/posts/?limit=11&offset=22')
+            const response = await fetch('https://studapi.teachmeskills.by/blog/posts/?limit=11&offset=100')
             if (!response.ok) {
                 throw new Error('error in API')
             }
@@ -65,7 +64,7 @@ export const postSlice = createSlice({
             state.error = null;
         })
 
-        //onePost
+        //1Post
         builder.addCase(fetchOnePost.fulfilled, (state: any, { payload }: { payload: any }) => {
             state.status = "resolved";
             state.error = null;

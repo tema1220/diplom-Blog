@@ -23,8 +23,10 @@ export default function BlockSignIn() {
                                 type="email"
                                 typeInput={`default${color} focus${color} active${color}`}
                                 isDisabled={false}
-                                placeholder="Your email"
-                            ></Inputs> */}
+                                placeholder="Your email" inputValue={''} setInputValue={function (e: any): void {
+                                    throw new Error('Function not implemented.');
+                                } }                            >
+                                </Inputs> */}
                             <button className='resetButton'>Go to home</button>
                         </div>
                     </div>

@@ -13,7 +13,7 @@ import { useContext } from 'react';
 export default function SearchCard() {
     const [color] = useContext(myContext)
 
-    const originalDate = [dataCards[7]].map((item) => (item.date));
+    const originalDate = [dataCards[5]].map((item) => (item.date));
     let DateString = String(originalDate)
     const dateObj = new Date(DateString);
     const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
@@ -40,12 +40,12 @@ export default function SearchCard() {
             <div className={`mainSearchCardBlock${color}`}>
                 <div className='mainTopBlockSR'>
 
-                    <div className=' blockWithImageSR'>{imageUrl && <img src={imageUrl}
+                    <div className='blockWithImageSR'>{imageUrl && <img src={imageUrl}
                         className='imageSizeSR' />}
                     </div>
 
                     <div className='textBlockSR'>
-                        {[dataCards[7]].map((item) => (
+                        {[dataCards[5]].map((item) => (
                             <div key={item.id}>
                                 <div className='dateSR'>{formattedDate}</div>
                                 <div className={`titleSR${color}`}>{item.title}</div>

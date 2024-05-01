@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import './PageFavoritePosts.css';
 import { ReactNode } from 'react';
 import { useState, useEffect } from "react";

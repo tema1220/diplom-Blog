@@ -8,8 +8,6 @@ import { useContext } from 'react';
 export default function Inputs({ typeInput, isDisabled, type, legend, id, placeholder, inputValue, setInputValue }: IInput) {
     const [color] = useContext(myContext)
 
-    // const [dataName, setDataNAme] = useState("");
-
     function inputTextChange(event: any): void {
         
 
@@ -31,7 +29,6 @@ return (
                     type={type}
                     className={typeInput}
                     value={inputValue}
-                    // onChange={inputTextChange}
                     onChange={setInputValue}
                     placeholder={placeholder}
                     style={{ border: error ? "2px solid #FD3419" : typeInput }}

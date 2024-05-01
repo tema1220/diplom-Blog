@@ -8,6 +8,7 @@ type ContextType = [
 export const myContext = createContext<ContextType>(['', () => {}])
 
 export default function ThemeContext({ children }: PropsWithChildren<{}>) {
+
     const [color, setColor] = useState("Light")
     return (
         <myContext.Provider value={[color, setColor]}>

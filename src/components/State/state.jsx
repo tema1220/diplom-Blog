@@ -9,8 +9,8 @@ export default function State() {
     }
     return (
         <>
-           <div onClick={changeText}>{text}</div>
-           <div onClick={() => setCount(count++)}>{count}</div>
+            <div onClick={changeText}>{text}</div>
+            <div onClick={() => setCount(count++)}>{count}</div>
         </>
     );
 }

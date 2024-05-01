@@ -1,6 +1,4 @@
-/* body {
-    background-color: #313037;
-} */
+
 
 .mainContainerInLight {
     width: auto;
@@ -128,7 +126,7 @@
     width: 544px;
     height: 56px;
     border-radius: 2px;
-    background-color: #2231AA;
+    background-color: #912EF2;
     color: white;
     border: none;
     margin-top: 30px;
@@ -176,7 +174,7 @@
     line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
-    color: #2231AA;
+    color: #912EF2;
     text-decoration: none;
 
 }

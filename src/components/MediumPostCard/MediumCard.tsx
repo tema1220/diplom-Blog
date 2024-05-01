@@ -13,11 +13,11 @@ import { useSelector, useDispatch } from 'react-redux'
 import { increment } from '../../slice/slice'
 import { BiSolidBookmark } from "react-icons/bi";
 
-export default function MediumCard({ id, title, date, image, component }: IPostCard) {
+export default function MediumCard({ id , title, date, image, component }: IPostCard) {
 
 
     const [color] = useContext(myContext)
-
+ 
     //date
     const formattedDate = (date: any) => {
         if (!date) {
@@ -25,7 +25,7 @@ export default function MediumCard({ id, title, date, image, component }: IPostC
         }
         const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
         const [year, month, day] = date.split('-');
-           return `${months[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`;
+            return `${months[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`
     };
     
 
@@ -38,7 +38,7 @@ export default function MediumCard({ id, title, date, image, component }: IPostC
     function addFavorite() {
         dispatch(addToFav(component))
     }
-    //hover Для закладки
+    //hover 
     const [isHovered, setIsHovered] = useState(false);
 
     const icon = isHovered ? <BiSolidBookmark className={`bookMarkIconFav${color}`} /> : <FiBookmark className={`bookMarkIcon${color}`} />;
@@ -55,13 +55,7 @@ export default function MediumCard({ id, title, date, image, component }: IPostC
 
     return (
         <>
-
             <div className={`mainMediumCardBlock${color}`} >
-
-
-
-
-
                 <div className='blockWithImageM'>
                     <div>
                         <img src={image} className='imageSizeM' />
@@ -74,10 +68,6 @@ export default function MediumCard({ id, title, date, image, component }: IPostC
                         <div className='dateM'>{formattedDate(date)}</div>
                     </div>
                 </div>
-
-
-
-
 
                 <div className='mainIconsBlockM'>
                     <div className='likeBlockM'>

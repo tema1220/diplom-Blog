@@ -9,9 +9,6 @@
 .yearBlogfolio {
     display: flex;
     flex-direction: row;
-    /* position:absolute; */
-    /* width: 124px;
-    height: 24px; */
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -19,6 +16,7 @@
     letter-spacing: 0em;
     text-align: left;
     color: #8D8E97;
+    justify-content: center;
 }
 
 .reservedRights {
@@ -34,8 +32,8 @@
 }
 
 .mainMenuBlockLight {
-position: absolute;
-right: 100px;
+
+
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -44,20 +42,18 @@ right: 100px;
 }
 
 .mainMenuBlockDark {
-    width: 100%;
-    height: auto;
-    background-color: #27262c;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
+    
+        background-color: #313037;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
 }
 
 .containerLink{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 236px;
-    height: 260px;
     background-color: white;
     color: #2231AA;
     font-family: Inter;
@@ -73,8 +69,6 @@ right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 236px;
-    height: 83px;
     background-color: white;
     color: #2231AA;
     font-family: Inter;
@@ -90,9 +84,7 @@ right: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: 236px;
-    height: 83px; */
-    background-color: #313037;
+    background-color: #616161;
     color: #2231AA;
     font-family: Inter;
     font-size: 16px;
@@ -104,26 +96,21 @@ right: 100px;
 
 .bottomMainBlockLight {
     display: flex;
-    flex-direction: column;
-    /* width: 236px;
-    height: 163px; */
-    /* border-bottom: 1px solid #E8E8E8; */
-    border-top: 1px solid #E8E8E8;
+    justify-content: center;
+
 }
 
 .bottomMainBlockDark {
     display: flex;
-    flex-direction: column;
-    /* width: 236px;
-    height: 163px; */
-    /* border-top: 1px solid #959595; */
+    justify-content: center;
+
 }
 
 .blockForDW {
-    /* width: 236px;
-    height: 81px; */
+
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .signInLight {
@@ -131,8 +118,7 @@ right: 100px;
     justify-content: center;
     align-items: center;
     background-color: #E8E8E8;
-    /* width: 236px;
-    height: 83px; */
+
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -148,8 +134,7 @@ right: 100px;
     align-items: center;
     background-color: #616161;
     color: white;
-    /* width: 236px;
-    height: 83px; */
+
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
@@ -163,8 +148,9 @@ right: 100px;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    /* width: 118px;
-    height: 83px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
     border-left: none;
     border-top: none;
     border-bottom: none;
@@ -176,8 +162,9 @@ right: 100px;
     justify-content: center;
     align-items: center;
     background-color: #313037;
-    /* width: 118px;
-    height: 83px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
     border-left: none;
     border-top: none;
     border-bottom: none;
@@ -189,8 +176,9 @@ right: 100px;
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    /* width: 118px;
-    height: 83px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
     border-right: none;
     border-top: none;
     border-bottom: none;
@@ -202,8 +190,9 @@ right: 100px;
     justify-content: center;
     align-items: center;
     background-color: #313037;
-    /* width: 118px;
-    height: 83px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
     border-right: none;
     border-top: none;
     border-bottom: none;

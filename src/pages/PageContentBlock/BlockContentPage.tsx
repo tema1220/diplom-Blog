@@ -1,5 +1,26 @@
-/* eslint-disable jsx-a11y/alt-text */
+// import './BlockContentPage.css';
+// import { AiOutlineLike } from "react-icons/ai";
+// import { BiDislike } from "react-icons/bi";
+// import { FiBookmark } from "react-icons/fi";
+// import '../../components/NavigationPostCard/NavigationPostCard.css';
+// import { HiArrowLeft } from "react-icons/hi";
+// import { HiArrowRight } from "react-icons/hi";
+// import OnePageDescription from '../../components/OnePageDescription/OnePageDescription';
+// import { useContext, useEffect } from 'react';
+// import { myContext } from '../../providers/ThemeContext';
+// import { useSelector, useDispatch } from 'react-redux'
+// import { fetchOnePost } from '../../slice/postSlice';
+// import { useParams } from 'react-router-dom';
+// import Spinner from '../../components/Spinner/Spinner';
+// import MediumCard from '../../components/MediumPostCard/MediumCard';
+// import LargeCard from '../../components/LargePostCard/LargeCard';
+// import Tabs from '../../components/Tabs/Tabs';
+// import { oneCardData } from '../../components/OnePostData';
+
+
 import './BlockContentPage.css';
+import { oneCardData } from '../../components/OnePostData';
+import Footer from '../../components/Footer/Footer';
 import { AiOutlineLike } from "react-icons/ai";
 import { BiDislike } from "react-icons/bi";
 import { FiBookmark } from "react-icons/fi";
@@ -15,6 +36,7 @@ import { useParams } from 'react-router-dom';
 import Spinner from '../../components/Spinner/Spinner';
 
 
+
 export default function BlockContentPage() {
     const { id } = useParams();
 
@@ -24,8 +46,8 @@ export default function BlockContentPage() {
         if (typeof id === 'string') {
             dispatch(fetchOnePost(id))
         }
-    }, [dispatch, id])
-
+    }, [])
+    // [dispatch, id])
     const onepost = useSelector((state: any) => state.posts.onePost)
 
     const [color] = useContext(myContext)
@@ -81,6 +103,7 @@ export default function BlockContentPage() {
                                         <FiBookmark className='iconBookMarkSize'></FiBookmark>
                                         Add to favorites
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -106,6 +129,12 @@ export default function BlockContentPage() {
                                 </div>
                             </div>
                         </div>
+
+
+
+
+
+
 
                     </div>
                 ) : (

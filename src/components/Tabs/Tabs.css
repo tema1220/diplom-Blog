@@ -13,7 +13,7 @@
 }
 
 .allLight:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid black;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .allDark:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 
@@ -50,7 +50,7 @@
     color: black;
 }
 .favoriteLight:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -68,7 +68,7 @@
     color: white;
 }
 .favoriteDark:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 .popularLight {
@@ -85,7 +85,7 @@
     background-color: #F3F3F3;
 }
 .popularLight:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid rgb(0, 0, 0);
 }
 
@@ -103,7 +103,7 @@
     background-color: #313037;
 }
 .popularDark:hover {
-    color: #2231AA;
+    color: #912EF2;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
 

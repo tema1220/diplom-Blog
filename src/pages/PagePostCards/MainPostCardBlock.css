@@ -21,8 +21,10 @@
 
 .mainPostCardBlock {
     width: 1120px;
-    height: 1560px;
+    height:auto;
     margin-top: 40px;
+    
+
 }
 
 .textBlockLight {
@@ -80,6 +82,7 @@
     height: 913px;
     display: flex;
     flex-direction: row;
+    
 }
 
 
@@ -93,13 +96,11 @@
 
 
 
-.leftMContainer {
+.leftContainer {
     width: 370px;
     height: 912px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+    
 }
 
 

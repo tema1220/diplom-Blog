@@ -16,22 +16,24 @@ export default function BlockSignIn() {
                     <div className={`textBlockRP${color}`}>New Password</div>
                     <div className={`containerRP${color}`}>
                         <div className={`inputsContainerNew${color}`}>
-                            {/* <Inputs
+                            <Inputs
                                 id="3"
                                 legend="Password"
                                 type="password"
                                 typeInput={`default${color} focus${color} active${color}`}
                                 isDisabled={false}
-                                placeholder="Your password"
-                            ></Inputs>
+                                placeholder="Your password" inputValue={''} setInputValue={function (e: any): void {
+                                    throw new Error('Function not implemented.');
+                                } }                            ></Inputs>
                             <Inputs
                                 id="4"
                                 legend="Confirm password"
                                 type="password"
                                 typeInput={`default${color} focus${color} active${color}`}
                                 isDisabled={false}
-                                placeholder="Confirm your password"
-                            ></Inputs> */}
+                                placeholder="Confirm your password" inputValue={''} setInputValue={function (e: any): void {
+                                    throw new Error('Function not implemented.');
+                                } }                            ></Inputs>
                             <button className='resetButton'>Set Password</button>
                         </div>
                     </div>

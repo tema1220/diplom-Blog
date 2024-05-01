@@ -9,17 +9,17 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    position: sticky;
 }
 
 
 .burgerBlock {
     width: 20px;
     height: 20px;
-    /* border-left: 1px solid #5360CD;
-    border-right: 1px solid #5360CD; */
     display: flex;
     justify-content: center;
     align-items: center;
+    position: sticky;
 }
 
 .iconBurger {
